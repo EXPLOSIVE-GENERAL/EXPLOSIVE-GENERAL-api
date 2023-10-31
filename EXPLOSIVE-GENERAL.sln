@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EXPLOSIVE-GENERAL.api", "EXPLOSIVE-GENERAL.api\EXPLOSIVE-GENERAL.api.csproj", "{F59139A1-9A5C-4A57-AD72-4C19705A3D94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EXPLOSIVE-GENERAL.Domain", "EXPLOSIVE-GENERAL.Domain\EXPLOSIVE-GENERAL.Domain.csproj", "{429826B8-D76E-435F-B707-85D2F0C97681}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F59139A1-9A5C-4A57-AD72-4C19705A3D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59139A1-9A5C-4A57-AD72-4C19705A3D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F59139A1-9A5C-4A57-AD72-4C19705A3D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59139A1-9A5C-4A57-AD72-4C19705A3D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{429826B8-D76E-435F-B707-85D2F0C97681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{429826B8-D76E-435F-B707-85D2F0C97681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{429826B8-D76E-435F-B707-85D2F0C97681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{429826B8-D76E-435F-B707-85D2F0C97681}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
