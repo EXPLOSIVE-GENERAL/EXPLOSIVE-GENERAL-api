@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EXPLOSIVE-GENERAL.Domain\EXPLOSIVE-GENERAL.Domain.csproj" />
+    <ProjectReference Include="..\Explosive-General.Data\Explosive-General.Data.csproj" />
   </ItemGroup>
 
 </Project>
