@@ -1,5 +1,6 @@
 ﻿using Explosive.General.Domain.Catalog;
 using Microsoft.EntityFrameworkCore;
+using Explosive.General.Domain.Orders;
 
 
 namespace Explosive.General.Data
@@ -10,6 +11,8 @@ namespace Explosive.General.Data
         public StoreContext(DbContextOptions<StoreContext> options) : base(options)
             { }
         public DbSet<Item> Items { get; set; }
+
+        public DbSet<Order> Orders { get; set; } 
        
         protected override void OnModelCreating(ModelBuilder builder)
         {
