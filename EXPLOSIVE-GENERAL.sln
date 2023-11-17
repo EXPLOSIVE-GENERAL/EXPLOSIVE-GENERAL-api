@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EXPLOSIVE-GENERAL.Domain", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explosive-General.Data", "Explosive-General.Data\Explosive-General.Data.csproj", "{F1F1D9C8-ED8C-463F-BCFF-DEC5D5596DE7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E47ADBF7-C919-46E8-AA4A-152A236991C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explosive-General.Domain.Tests", "tests\Explosive-General.Domain.Tests\Explosive-General.Domain.Tests.csproj", "{35769F05-36AF-4C91-B5B3-1927AFFD6207}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,12 @@ Global
 		{F1F1D9C8-ED8C-463F-BCFF-DEC5D5596DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1F1D9C8-ED8C-463F-BCFF-DEC5D5596DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1F1D9C8-ED8C-463F-BCFF-DEC5D5596DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35769F05-36AF-4C91-B5B3-1927AFFD6207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35769F05-36AF-4C91-B5B3-1927AFFD6207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35769F05-36AF-4C91-B5B3-1927AFFD6207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35769F05-36AF-4C91-B5B3-1927AFFD6207}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35769F05-36AF-4C91-B5B3-1927AFFD6207} = {E47ADBF7-C919-46E8-AA4A-152A236991C2}
 	EndGlobalSection
 EndGlobal
