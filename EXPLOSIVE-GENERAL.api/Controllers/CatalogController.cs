@@ -3,6 +3,7 @@ using Explosive.General.Api.Controllers;
 using Explosive.General.Domain.Catalog;
 using Explosive.General.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Explosive.General.Api.Controllers
 {
@@ -41,7 +42,6 @@ public IActionResult Post(Item item)
     return Created($"/catalog/{item.Id}", item);
 }
 
-
 [HttpPost("{id:int}/ratings")]
 public IActionResult PostRating(int id, [FromBody] Rating rating)
 {
@@ -74,7 +74,8 @@ public IActionResult PutItem(int id, [FromBody] Item item)
 
     return NoContent();
 }
-[HttpPost("{id:int}")]
+[HttpDelete("{id:int}")]
+[Authorize("delete:catalog")]
 public IActionResult Delete(int id)
 {
 var item = _db.Items.Find(id);

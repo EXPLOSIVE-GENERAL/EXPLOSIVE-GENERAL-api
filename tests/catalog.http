@@ -1,0 +1,9 @@
+### GET token from Auth0
+curl --request POST \
+  --url https://dev-h2kc13cbm52yja4c.us.auth0.com/oauth/token \
+  --header 'content-type: application/json' \
+  --data '{"client_id":"NXomgp6H5sFIAhgOSQDXBFA4F8zjXBp5","client_secret":"7YH9rzTeWmWVhRwHfBjX7NQHiFZkaW9cHi6CPkHs1MZBT2KS4uxowfL_wVzer8k-","audience":"https://explosive-general","grant_type":"client_credentials"}'
+### DELETE a Item to the Catalog collection
+curl --request DELETE  \
+	--url http://localhost:5238/catalog/2 \
+	--header 'authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InpxZGZsM2dya19TXzl2aENXTjRDVCJ9.eyJpc3MiOiJodHRwczovL2Rldi1oMmtjMTNjYm01MnlqYTRjLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJOWG9tZ3A2SDVzRklBaGdPU1FEWEJGQTRGOHpqWEJwNUBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9leHBsb3NpdmUtZ2VuZXJhbCIsImlhdCI6MTcwMTk3MTA5NiwiZXhwIjoxNzAyMDU3NDk2LCJhenAiOiJOWG9tZ3A2SDVzRklBaGdPU1FEWEJGQTRGOHpqWEJwNSIsInNjb3BlIjoiZGVsZXRlOmNhdGFsb2ciLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.j7Ojtlg7d5HwGV-EDZti20-FglsT6fgGeSkGe5hxywaE7i92TWRJokikVTrPaUlFCr47PK5bK3iUH5a_FZgDKCi32j79kal95ZpR4gVaaDQW4dMx8KjX2kaB1F7Xq5NLAih9NfnAmC0GsEQpwD6S6Z1gn3ndwanIyJcGlCTSbJI_ony1IuhYCe0hbA5cQQ6geW_Yb_CDdMxsBAmffTLiXkuVZgCn51YjNgi4Esdk-Kr2Q-o6zdFXBoUEs-n_suI-xsp5dZlWiBv_koJkuyPmalFdVcONMZazd2POTi_TtvtHpQaMN_dJYILYgUOWdfbgOWIjwtXRRjYAyrxlmhxU9g'
