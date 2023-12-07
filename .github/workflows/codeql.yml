@@ -17,9 +17,8 @@ on:
   pull_request:
     branches: [ "main" ]
   schedule:
-code-scanning - cron: '25 3 * * 6'
-              - cron: '26 12 * * 2'
-[ "main"]
+  - cron: '25 3 * * 6'
+  - cron: '26 12 * * 2'
 
 jobs:
   analyze:
